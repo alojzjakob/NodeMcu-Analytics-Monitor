@@ -8,7 +8,7 @@ ini_set('display_errors',true);
 require_once (realpath(dirname(__FILE__))).'/google-api-php-client-2.1.3_PHP54/vendor/autoload.php';
 $client = new Google_Client();
 $client->setApplicationName("Website Monitor");
-$client->setAuthConfig(realpath(dirname(__FILE__)).'/Ballystics-5be35395db7b.json');
+$client->setAuthConfig(realpath(dirname(__FILE__)).'/[YOUR_JSON].json');
 $client->addScope('https://www.googleapis.com/auth/analytics.readonly');
 $analyticsViewId = 'ga:'.$_GET['viewId'];
 $analytics = new Google_Service_Analytics($client);
