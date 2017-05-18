@@ -6,3 +6,6 @@ https://www.youtube.com/watch?v=eRe8vVDwDak
 
 3D printable case:
 http://www.thingiverse.com/thing:2286288
+
+<img src="https://alojzjakob.github.io/NodeMcu-Analytics-Monitor/images/monitor.jpg">
+<img src="https://alojzjakob.github.io/NodeMcu-Analytics-Monitor/images/monitor2.jpg">
